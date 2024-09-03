@@ -6,7 +6,6 @@ body {
     'aside main main main main'
     'aside main main main main'
     'aside main main main main'
-    'aside main main main main'
     'aside main main main main';
 }
 
@@ -16,8 +15,10 @@ header {
 
 main {
     grid-area: main;
+    background-color: #e2e8f0;
 }
 
 aside {
     grid-area: aside;
+    background-color: #84cc16;
 }
