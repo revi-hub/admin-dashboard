@@ -107,3 +107,24 @@ nav div ul li img {
     width: 23px;
     height: 23px;
 }
+
+header > div > form button {
+    background-color: white;
+    border: none;
+    width: 40px;
+}
+
+header > div > form button:hover {
+    background-color: none;
+    border: none;
+}
+
+header > div > form button + input {
+    background-color: #e2e8f0;
+    border-radius: 20px;
+    border: none;
+}
+
+header > div > form button + input:active {
+    background-color: #e2e8f0;
+}
